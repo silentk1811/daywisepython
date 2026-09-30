@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Numbered Fruits</title>
+</head>
+
+<body>
+
+    <h1>Fruit List</h1>
+
+    <ol>
+        {% for item in fruit %}
+            <li>{{ loop.index }}. {{ item }}</li>
+        {% endfor %}
+    </ol>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+
+<body>
+
+    <h1>Student Result</h1>
+
+    <p>Marks: {{ marks }}</p>
+
+    {% if marks >= 40 %}
+        <h2>Pass</h2>
+    {% else %}
+        <h2>Fail</h2>
+    {% endif %}
+
+</body>
+</html>

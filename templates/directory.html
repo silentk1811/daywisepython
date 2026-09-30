@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Directory</title>
+</head>
+
+<body>
+
+    <h1>My Directory</h1>
+
+    {% for folder, files in folders.items() %}
+
+        <h2>{{ folder }}</h2>
+
+        {% for file in files %}
+            <p>{{ file }}</p>
+        {% endfor %}
+
+    {% endfor %}
+
+</body>
+</html>

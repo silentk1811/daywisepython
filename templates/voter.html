@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voter Eligibility</title>
+</head>
+
+<body>
+
+    <h1>Voter Eligibility Check</h1>
+
+    <p>Age: {{ age }}</p>
+
+    {% if age >= 18 %}
+        <p>Eligible to vote</p>
+    {% else %}
+        <p>Not eligible to vote</p>
+    {% endif %}
+
+</body>
+</html>
